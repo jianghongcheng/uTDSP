@@ -219,67 +219,54 @@ The following plots illustrate the PSNR values for each spectral band across six
 
 </div>
 
+## 🛰️ Quantitative Results on Satellite Datasets
 
+*Metrics: PSNR ↑ (higher is better), SAM ↓, ERGAS ↓  
+(* denotes an unsupervised method)*
 
-
-## 📊 Quantitative Results
-
-<p align="center"><b>Table: Quantitative comparison with state-of-the-art methods on the validation dataset (PSNR/SSIM)</b></p>
+---
 
 <div align="center">
 
-<table>
-  <thead>
-    <tr>
-      <th rowspan="2">Model</th>
-      <th colspan="2">×8</th>
-      <th colspan="2">×16</th>
-    </tr>
-    <tr>
-      <th>PSNR</th>
-      <th>SSIM</th>
-      <th>PSNR</th>
-      <th>SSIM</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>EDSR</td>
-      <td>25.66</td>
-      <td>0.8394</td>
-      <td>22.59</td>
-      <td>0.7562</td>
-    </tr>
-    <tr>
-      <td>SwinIR</td>
-      <td>24.98</td>
-      <td>0.8170</td>
-      <td>21.22</td>
-      <td>0.7277</td>
-    </tr>
-    <tr>
-      <td>HAN</td>
-      <td>25.86</td>
-      <td>0.8430</td>
-      <td>22.69</td>
-      <td>0.7591</td>
-    </tr>
-    <tr>
-      <td>GRL</td>
-      <td>25.59</td>
-      <td>0.8405</td>
-      <td>22.38</td>
-      <td>0.7500</td>
-    </tr>
-    <tr>
-      <td><b>FW-SAT (Ours)</b></td>
-      <td><b>27.80</b></td>
-      <td><b>0.8815</b></td>
-      <td><b>24.61</b></td>
-      <td><b>0.8116</b></td>
-    </tr>
-  </tbody>
-</table>
+### 🛰️ Botswana
+
+| Method         | PSNR   | SAM     | ERGAS   |
+|----------------|:------:|:-------:|:-------:|
+| DBDENet        | 22.84  | 8.5207  | 11.3979 |
+| DHP-DARN       | 28.85  | 4.9084  | 2.8164  |
+| DIP-HyperKite  | 30.24  | 4.8305  | 2.1305  |
+| DMLD-Net       | 26.87  | 6.5379  | 3.7552  |
+| GPPNN          | 26.44  | 8.6439  | 3.8965  |
+| HyperPNN       | 29.83  | 4.9803  | 2.2254  |
+| DDLPS*         | 22.27  | 6.9539  | 17.5198 |
+| GSA*           | 23.80  | 6.2035  | 11.6626 |
+| Indusion*      | 15.30  | 5.4225  | 9.7633  |
+| PLRDiff*       | 17.84  | 15.1475 | 9.0164  |
+| SFIM*          | 26.81  | 5.4225  | 2.7995  |
+| **uTDSP***     | **31.61** | **3.7777** | **1.9155** |
+
+</div>
+
+---
+
+<div align="center">
+
+### 🛰️ ZY1-02D
+
+| Method         | PSNR   | SAM     | ERGAS   |
+|----------------|:------:|:-------:|:-------:|
+| DBDENet        | 11.39  | 22.3445 | 29.8753 |
+| DHP-DARN       | 14.71  | 7.9514  | 24.0358 |
+| DIP-HyperKite  | 19.73  | 2.1563  | 3.8904  |
+| DMLD-Net       | 13.41  | 13.4045 | 11.3059 |
+| GPPNN          | 14.35  | 12.1717 | 10.6018 |
+| HyperPNN       | 19.42  | 2.7872  | 5.5515  |
+| DDLPS*         | 26.03  | 1.8212  | 5.0919  |
+| GSA*           | 16.60  | 4.5868  | 20.0515 |
+| Indusion*      | 14.53  | **1.7358** | 6.7524  |
+| PLRDiff*       | 26.77  | 2.5636  | 2.7032  |
+| SFIM*          | 28.23  | **1.7358** | **1.6604** |
+| **uTDSP***     | **31.22** | 1.7466  | 1.6917  |
 
 </div>
 
