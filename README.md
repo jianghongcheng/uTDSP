@@ -65,7 +65,7 @@ These consistent improvements across scales and metrics validate FW-SAT’s stro
 ## 🧠 Network Architecture
 
 <p align="center">
-  <img src="https://github.com/jianghongcheng/FW-SAT/blob/main/Figures/Network.png" width="800"/>
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/utdsp.png" width="800"/>
 </p>
 
 
