@@ -69,13 +69,40 @@ These consistent improvements across scales and metrics validate FW-SAT’s stro
 </p>
 
 
----
+## 📊 Band-wise PSNR Comparison
 
-## 🧩 Flexible Window Attention Module
+The following plots illustrate the PSNR values for each spectral band across six benchmark datasets, highlighting the spectral fidelity of uTDSP compared to existing methods.
 
+### 🛰️ Botswana
 <p align="center">
-  <img src="https://github.com/jianghongcheng/FW-SAT/blob/main/Figures/Flexible_Window_Att.png" width="800"/>
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/Botswana_PSNR.png" width="800"/>
 </p>
+
+### 🛰️ Chikusei
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/Chikusei_PSNR.png" width="800"/>
+</p>
+
+### 🛰️ Pavia Center
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/PaviaC_PSNR.png" width="800"/>
+</p>
+
+### 🛰️ Pavia University
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/PaviaU_PSNR.png" width="800"/>
+</p>
+
+### 🛰️ Indian Pines
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/indian_PSNR.png" width="800"/>
+</p>
+
+### 🛰️ Ziyuan-1
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/Ziyuan_PSNR.png" width="800"/>
+</p>
+
 
 
 ---
