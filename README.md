@@ -109,9 +109,14 @@ The following plots illustrate the PSNR values for each spectral band across six
 
 ## 🖼️ Visual Results
 
-<p align="center"><strong>Comparison with State-of-the-Art Methods</strong></p>
+### 📷  Airborne datasets
 <p align="center">
-  <img src="https://github.com/jianghongcheng/FW-SAT/blob/main/Figures/Visual_Result.png" width="800"/>
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/result1.png" width="800"/>
+</p>
+
+### 📷  Satellite DatasetS
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/result2.png" width="800"/>
 </p>
 
 
