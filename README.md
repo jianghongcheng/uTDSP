@@ -304,13 +304,12 @@ The following plots illustrate the PSNR values for each spectral band across six
 If you find this work helpful in your research, please cite:
 
 ```bibtex
-@InProceedings{Jiang_2024_CVPR,
-    author    = {Jiang, Hongcheng and Chen, Zhiqiang},
-    title     = {Flexible Window-based Self-attention Transformer in Thermal Image Super-Resolution},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-    month     = {June},
-    year      = {2024},
-    pages     = {3076--3085}
+@inproceedings{jiang2025hyperspectral,
+  title={Hyperspectral Pansharpening with Transformer-Based Spectral Diffusion Priors},
+  author={Jiang, Hongcheng and Chen, ZhiQiang},
+  booktitle={Proceedings of the Winter Conference on Applications of Computer Vision},
+  pages={581--590},
+  year={2025}
 }
 ```
 
