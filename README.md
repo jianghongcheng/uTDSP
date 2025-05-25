@@ -140,7 +140,7 @@ The following plots illustrate the PSNR values for each spectral band across six
   <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/result1.png" width="800"/>
 </p>
 
-### 📷  Satellite DatasetS
+### 📷  Satellite Datasets
 <p align="center">
   <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/result2.png" width="800"/>
 </p>
