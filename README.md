@@ -13,8 +13,6 @@
 
 ## 🔍 Overview
 
-**uTDSP** (Unsupervised Transformer-based Diffusion and Spectral Priors) is a novel framework for hyperspectral pansharpening.
-
 The goal is to reconstruct a **high-resolution hyperspectral image (HR-HSI)** by fusing a **low-resolution hyperspectral image (LR-HSI)** and a **high-resolution panchromatic image (HR-PCI)**. Unlike conventional methods that rely on paired HR-HSI ground truth, **uTDSP is entirely unsupervised**, leveraging **spectral priors** and a **transformer-based diffusion model** to guide the reconstruction process.
 
 
