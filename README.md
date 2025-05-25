@@ -30,28 +30,54 @@ The goal is to reconstruct a high-resolution hyperspectral image (HR-HSI) by fus
 ---
 
 
-
 ## 📈 Performance Gains
 
-We propose **FW-SAT**, a Flexible Window-based Self-attention Transformer for thermal image super-resolution.
+**uTDSP** achieves consistent PSNR improvements across diverse airborne and satellite datasets, outperforming both supervised and unsupervised baselines.
 
-✅ **Results on Validation Set**
+### ✅ Airborne Datasets
 
-**×8 Upscaling:**
-- FW-SAT achieves **27.80 dB / 0.8815** in PSNR/SSIM, outperforming all competitors:
-  - **+2.82 dB / +0.0645** (**+11.29% PSNR / +7.89% SSIM**) vs. SwinIR
-  - **+1.94 dB / +0.0385** (**+7.50% PSNR / +4.57% SSIM**) vs. HAN
-  - **+2.21 dB / +0.0410** (**+8.64% PSNR / +4.88% SSIM**) vs. GRL
-  - **+2.14 dB / +0.0421** (**+8.34% PSNR / +5.02% SSIM**) vs. EDSR
+- **Chikusei**  
+  - uTDSP: **26.86 dB**  
+  - Best prior method (DDLPS*): 26.85 dB  
+  - 🔺 **+0.01 dB (+0.04%)**
 
-**×16 Upscaling:**
-- FW-SAT achieves **24.61 dB / 0.8116**, again setting a new benchmark:
-  - **+3.39 dB / +0.0839** (**+15.97% PSNR / +11.53% SSIM**) vs. SwinIR
-  - **+1.92 dB / +0.0525** (**+8.46% PSNR / +6.91% SSIM**) vs. HAN
-  - **+2.23 dB / +0.0616** (**+9.96% PSNR / +8.21% SSIM**) vs. GRL
-  - **+2.02 dB / +0.0554** (**+8.94% PSNR / +7.32% SSIM**) vs. EDSR
+- **Indian Pines**  
+  - uTDSP: **25.79 dB**  
+  - Best prior method (DIP-HyperKite): 25.15 dB  
+  - 🔺 **+0.64 dB (+2.54%)**
 
-These consistent improvements across scales and metrics validate FW-SAT’s strong generalization and superior spatial-spectral learning capabilities.
+- **PaviaC**  
+  - uTDSP: **28.53 dB**  
+  - Best prior method (DDLPS*): 27.52 dB  
+  - 🔺 **+1.01 dB (+3.67%)**
+
+- **PaviaU**  
+  - uTDSP: **30.68 dB**  
+  - Best prior method (GPPNN): 29.86 dB  
+  - 🔺 **+0.82 dB (+2.75%)**
+
+### ✅ Satellite Datasets
+
+- **Botswana**  
+  - uTDSP: **31.61 dB**  
+  - Best prior method (DIP-HyperKite): 30.24 dB  
+  - 🔺 **+1.37 dB (+4.53%)**
+
+- **ZY1-02D**  
+  - uTDSP: **31.22 dB**  
+  - Best prior method (SFIM*): 28.23 dB  
+  - 🔺 **+2.99 dB (+10.59%)**
+
+---
+
+### 📌 Summary
+
+uTDSP consistently improves PSNR by:
+- **+0.01–1.01 dB (up to +3.7%)** on airborne datasets  
+- **+1.37–2.99 dB (up to +10.6%)** on satellite datasets  
+
+These results confirm uTDSP’s strong generalization and superior reconstruction quality across sensing platforms—all achieved without supervision.
+
 
 
 ## 🔄 Diffusion Process Illustration
