@@ -54,6 +54,11 @@ We propose **FW-SAT**, a Flexible Window-based Self-attention Transformer for th
 These consistent improvements across scales and metrics validate FW-SAT’s strong generalization and superior spatial-spectral learning capabilities.
 
 
+## 🔄 Diffusion Process Illustration
+
+<p align="center">
+  <img src="https://github.com/jianghongcheng/uTDSP/blob/main/Figures/diffusion.gif" width="800"/>
+</p>
 
 ---
 
