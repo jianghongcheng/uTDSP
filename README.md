@@ -1,7 +1,7 @@
 # uTDSP
 
 ### Hyperspectral Pansharpening with Transformer-based Spectral Diffusion Priors  
-📄 [[Paper Link (WACV 2025 Workshop)]](https://openaccess.thecvf.com/content/WACV2025W/GeoCV/papers/Jiang_Hyperspectral_Pansharpening_with_Transformer-based_Spectral_Diffusion_Priors_WACVW_2025_paper.pdf)
+📄 [[Paper Link (WACV 2025)]](https://openaccess.thecvf.com/content/WACV2025W/GeoCV/papers/Jiang_Hyperspectral_Pansharpening_with_Transformer-based_Spectral_Diffusion_Priors_WACVW_2025_paper.pdf)
 
 
 **Authors:**  
@@ -303,6 +303,18 @@ The following plots illustrate the PSNR values for each spectral band across six
 If you find this work helpful in your research, please cite:
 
 ```bibtex
+
+@ARTICLE{11085108,
+  author={Jiang, Hongcheng and Chen, ZhiQiang},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Transformer-based Diffusion and Spectral Priors Model For Hyperspectral Pansharpening}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-17},
+  keywords={Hyperspectral imaging;Pansharpening;Diffusion models;Transformers;Estimation;Bayes methods;Noise reduction;Image reconstruction;Earth;Degradation;Hyperspectral imaging;pansharpening;spectral priors;diffusion model;transformer;remote sensing},
+  doi={10.1109/JSTARS.2025.3590685}}
+  
 @inproceedings{jiang2025hyperspectral,
   title={Hyperspectral Pansharpening with Transformer-Based Spectral Diffusion Priors},
   author={Jiang, Hongcheng and Chen, ZhiQiang},
